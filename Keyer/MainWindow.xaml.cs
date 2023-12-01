@@ -21,6 +21,8 @@ namespace Keyer
     /// </summary>
     public partial class MainWindow : Window
     {
+        public string FilePath = string.Empty;
+
         public MainWindow()
         {
             InitializeComponent();
